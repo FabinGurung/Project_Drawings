@@ -1,0 +1,54 @@
+{
+  "package": "Narayani_GitHub_Pages_Staging_v0.2",
+  "generated_at_npt": "2026-09-03 18:27 NPT",
+  "purpose": "Public-safe GitHub Pages candidate preserving governed engineering status without private Drive identifiers or links.",
+  "parent_artifact": {
+    "name": "Narayani_GitHub_Pages_Staging_v0.1.zip",
+    "sha256": "23628f9d6c94bcafa0ea6fd8616b80d9eb5a50a5f040e7d7634a4d14d5c76a67",
+    "supersession_reason": "The v0.1 payload contains private Drive URLs and IDs forbidden by the governing GitHub pre-push safety gate."
+  },
+  "publication_binding": {
+    "repository": "FabinGurung/Project_Drawings",
+    "branch": "narayani-pages-v0.2",
+    "folder": "repository root",
+    "pages_url": null,
+    "status": "PUBLIC_SAFE_STAGING_READY__REPOSITORY_EMPTY"
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 4636,
+      "sha256": "ac6d8a6dd0b1f8207e07b53656a81940eb4d593d9b3de5a9a51b517c90bf629d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1267,
+      "sha256": "5a3a3d0bb37682a4a4903143a4aad5521522289841d49c69ffed3409132f1b66"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 1709,
+      "sha256": "0aed3188d77a5d4b06f35b4d99ce57336d023661483596109021e1825963cbc0"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 2919,
+      "sha256": "d3a7c03abd29b4522c74cd504066c64057f3ec005dba964420ec73213312287f"
+    },
+    {
+      "path": "data/project_status.json",
+      "bytes": 5593,
+      "sha256": "22654164a3d9d1cf33f68536fc16e7812cc149354943c177221195978d1761b1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4636,
+      "sha256": "ac6d8a6dd0b1f8207e07b53656a81940eb4d593d9b3de5a9a51b517c90bf629d"
+    }
+  ]
+}
