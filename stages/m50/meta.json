@@ -1,0 +1,27 @@
+{
+  "schema": "jp-aec://narayani/modular-stage/0.3",
+  "stage": "M50",
+  "slug": "m50",
+  "title": "Starter / Dowel / Embedded Works",
+  "version": "v0.5",
+  "status": "FROZEN",
+  "source_artifact_name": "Narayani_M50_Starter_Dowel_Embedded_Atomic_Interactive_v0.5.html",
+  "source_sha256": "56108042ea657cbe37df259213c2417c11048ee0bc67e41c966d6c9a888db600",
+  "source_authority": "Governed private project storage; identifiers intentionally excluded from public payload.",
+  "tabs": [
+    "Spatial Starter Plan",
+    "Starter/BBS Selector & Sum",
+    "Fabrication Order Builder",
+    "Detail / Section Explorer",
+    "Building Context / Elevation"
+  ],
+  "tab_count": 5,
+  "files": [
+    "index.html",
+    "stage.css",
+    "stage.js",
+    "stage-data.json",
+    "meta.json"
+  ],
+  "engineering_policy": "Preserve source engineering state; this website is a publication/view layer, not signed design authority."
+}

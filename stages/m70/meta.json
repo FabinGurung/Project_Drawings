@@ -1,0 +1,30 @@
+{
+  "schema": "jp-aec://narayani/modular-stage/0.3",
+  "stage": "M70",
+  "slug": "m70",
+  "title": "Plinth Beam Network",
+  "version": "v0.5",
+  "status": "FROZEN",
+  "source_artifact_name": "Narayani_M70_PlInthBeam_Network_Atomic_Interactive_v0.5.html",
+  "source_sha256": "0681e8633d07b82c8d1e1463cc0155fe0edc4aa3fd3b776b2f910d464e6c8e99",
+  "source_authority": "Governed private project storage; identifiers intentionally excluded from public payload.",
+  "tabs": [
+    "1. Spatial PB Plan",
+    "2. Selector & Sum",
+    "3. Order Builder",
+    "4. Detail / Section Explorer",
+    "5. Building Context / Elevation",
+    "6. T12 Lap & Stock",
+    "7. T8 Spatial Links",
+    "8. Steel Inventory"
+  ],
+  "tab_count": 8,
+  "files": [
+    "index.html",
+    "stage.css",
+    "stage.js",
+    "stage-data.json",
+    "meta.json"
+  ],
+  "engineering_policy": "Preserve source engineering state; this website is a publication/view layer, not signed design authority."
+}

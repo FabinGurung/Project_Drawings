@@ -1,0 +1,35 @@
+{
+  "schema": "jp-aec://narayani/modular-stage/0.3",
+  "stage": "M80",
+  "slug": "m80",
+  "title": "Underground Water Tank",
+  "version": "v0.4",
+  "status": "CODAL_NOT_VERIFIED / HOLD",
+  "source_artifact_name": "Narayani_M80_Underground_Water_Tank_Rich_Interactive_v0.4__PRESERVED_CODE_AUDIT_HOLD.html",
+  "source_sha256": "99bf9e6beb91436e3f7d2920d5b48270193568f679362df43cf1a5a435459321",
+  "source_authority": "Governed private project storage; identifiers intentionally excluded from public payload.",
+  "tabs": [
+    "1 Spatial Context",
+    "2 Set-out & Bay",
+    "3 3D Exploded",
+    "4 Sections & Elevations",
+    "5 RCC/PCC Components",
+    "6 Base Reinforcement",
+    "7 Wall Reinforcement",
+    "8 Cover + B1 + Haunch",
+    "9 BBS Cut Shapes",
+    "10 12m Stock Planner",
+    "11 Leftover Inventory",
+    "12 Sources + Validation + JSON"
+  ],
+  "tab_count": 12,
+  "files": [
+    "index.html",
+    "stage.css",
+    "stage.js",
+    "stage-data.json",
+    "meta.json"
+  ],
+  "engineering_policy": "Preserve source engineering state; this website is a publication/view layer, not signed design authority.",
+  "hold_note": "M80 remains pinned CODAL_NOT_VERIFIED / HOLD; publication does not approve it for construction/fabrication."
+}

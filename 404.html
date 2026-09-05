@@ -1,44 +1,12 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Governed structural work-package status and audit portal for Narayani Parajuli Residence.">
-<title>Narayani AEC Intelligence · Governed Project Atlas</title><link rel="stylesheet" href="assets/styles.css"></head>
-<body><div class="wrap">
-<section class="hero"><div class="eyebrow">Fishtail Builders · PRJ-000007 · Governed AEC Atlas</div>
-<h1>Narayani AEC Intelligence</h1>
-<p>A publication view of the structural work completed so far. Every package keeps its actual engineering state—frozen rollback, review, hold, or codal-not-verified—rather than flattening the project into a false “all approved” status.</p>
-<div class="alert ok"><b>E2K audit decision:</b> the obtained ULS/SLS ETABS models do <b>not</b> justify rebuilding PCC through M80 wholesale. They become analysis authorities for targeted revalidation and future branches.</div>
-<div class="small">Detailed source records, checkpoints and registers remain in governed private project storage and are intentionally not linked from this public site.</div>
-</section>
-
-<h2 class="section-title">Work-package atlas</h2>
-<div class="toolbar">
-<button class="filter active" data-filter="ALL">All</button><button class="filter" data-filter="FROZEN">Frozen</button>
-<button class="filter" data-filter="HOLD">Hold</button><button class="filter" data-filter="CODAL_NOT_VERIFIED">Codal not verified</button>
-</div>
-<section id="stageCards" class="grid"></section>
-
-<h2 class="section-title">ETABS ULS/SLS source audit</h2>
-<section class="grid">
-<article class="card"><div class="stage">MACHINE-READABLE SOURCE</div><h3>ULS model</h3><p class="note">ETABS source preserved in the governed private project record.</p></article>
-<article class="card"><div class="stage">MACHINE-READABLE SOURCE</div><h3>SLS model</h3><p class="note">Geometry and section-assignment family align with ULS; load-pattern and stiffness differences are preserved for audit.</p></article>
-<article class="card wide"><h3>Reconciliation focus</h3><ul><li>Report/model software-version provenance requires clarification.</li><li>ULS and SLS stiffness modifiers differ.</li><li>Circular-column material-grade provenance requires clarification.</li><li>Response-spectrum claims require reconciliation with the available exports.</li><li>Slab-cover design preferences require reconciliation with the report narrative.</li></ul></article>
-</section>
-
-<h2 class="section-title">M80 codal hold</h2>
-<section class="grid"><article class="card wide">
-<div class="meta"><span class="badge b-CODAL_NOT_VERIFIED">CODAL_NOT_VERIFIED</span><span class="badge b-HOLD">HOLD</span></div>
-<h3>Water tank v0.4 is preserved, not erased</h3><p class="note">The viewer and source-backed calculations remain valuable historical/audit artifacts. They are deliberately not labelled construction-approved until the open liquid-retaining design checks are resolved.</p>
-<div class="alert"><ul><li>Minimum concrete-grade basis for liquid-retaining RC remains unresolved.</li><li>Severe-exposure cover basis remains unresolved.</li><li>SLS crack-width and liquid-tightness verification is not established.</li><li>Complete liquid, earth-pressure, earthquake and groundwater/uplift load-state verification is not established.</li></ul></div>
-</article></section>
-
-<h2 class="section-title">Roadmap / backlog</h2>
-<section class="timeline">
-<div class="road"><div class="ord">1</div><div><b>Publish governed status/audit website</b><div class="small">Public-safe staging is ready; repository branch bootstrap is pending.</div></div><span class="badge">STAGING_READY</span></div>
-<div class="road"><div class="ord">2</div><div><b>Resolve M80 code audit</b><div class="small">Concrete grade, cover, serviceability and load-state verification.</div></div><span class="badge">DEFERRED_HOLD</span></div>
-<div class="road"><div class="ord">3</div><div><b>Complete M70 global lap-location optimality proof</b><div class="small">Selected-schedule optimum is preserved; global proof remains open.</div></div><span class="badge">OPEN_BACKLOG</span></div>
-<div class="road"><div class="ord">4</div><div><b>Advance to M90 / next superstructure interface</b></div><span class="badge">BLOCKED_BY_PREVIOUS_GATES</span></div>
-</section>
-
-<div class="footer">Generated from governed project state · 2026-09-03 18:27 NPT · Website is an audit/status interface, not a replacement for signed structural design documents.</div>
-</div>
-<script src="assets/app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Narayani modular governed AEC drawing and fabrication atlas."><title>Narayani AEC · Modular Drawing Atlas</title><link rel="stylesheet" href="assets/css/site.css"></head><body><header class="hero"><div class="eyebrow">Fishtail Builders · PRJ-000007 · development branch v0.3</div><h1>Narayani Modular Drawing Atlas</h1><p>Detailed governed work-package viewers are now isolated into independent website modules. The current v0.2 production publication remains untouched while this branch is developed and verified.</p><div class="notice"><b>Engineering state is preserved:</b> frozen packages remain frozen; M80 remains <b>CODAL_NOT_VERIFIED / HOLD</b> and is not construction-approved.</div></header><main><section><div class="section-head"><div><h2>Work-package modules</h2><p>Choose a stage. Each module owns its HTML, CSS, JavaScript, JSON data and metadata sidecar.</p></div><div id="loadState" class="pill">Loading…</div></div><div id="cards" class="cards"></div></section><section id="viewerSection" class="viewer-section" hidden><div class="viewer-head"><div><span id="viewerStage" class="pill"></span><h2 id="viewerTitle">Viewer</h2></div><div class="actions"><a id="openFull" class="button" href="#" target="_blank" rel="noopener">Open full page ↗</a><button id="closeViewer" class="button ghost">Close</button></div></div><iframe id="viewer" title="Detailed stage viewer"></iframe></section><section class="architecture"><h2>v0.3 architecture</h2><pre>index.html
+assets/css/site.css
+assets/css/stage-shell.css
+assets/js/app.js
+assets/js/stage-bootstrap.js
+data/project.json
+data/navigation.json
+stages/{stage}/index.html
+stages/{stage}/stage.css
+stages/{stage}/stage.js
+stages/{stage}/stage-data.json
+stages/{stage}/meta.json</pre></section></main><footer>Public development view only · private Drive identifiers intentionally excluded · signed engineering documents remain authoritative.</footer><script src="assets/js/app.js"></script></body></html>

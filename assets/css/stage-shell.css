@@ -1,0 +1,2 @@
+
+.public-module-banner{position:sticky;top:0;z-index:99999;background:#0f172a;color:#fff;padding:8px 14px;font:600 12px/1.35 system-ui,-apple-system,Segoe UI,sans-serif;box-shadow:0 2px 10px #0003}.public-module-banner a{color:#93c5fd}.public-module-banner .hold{color:#fca5a5}.public-module-banner .ok{color:#86efac}.module-load-state{float:right;font-weight:500;color:#cbd5e1}.module-load-state.error{color:#fca5a5}@media(max-width:720px){.public-module-banner{position:relative}.module-load-state{float:none;display:block;margin-top:3px}}

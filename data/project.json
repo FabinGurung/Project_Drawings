@@ -1,0 +1,86 @@
+{
+  "schema": "jp-aec://narayani/modular-website/0.3",
+  "project": {
+    "id": "PRJ-000007",
+    "name": "Narayani Parajuli Residence",
+    "owner": "Fishtail Builders",
+    "location": "Pokhara, Nepal"
+  },
+  "website": {
+    "version": "v0.3-development",
+    "branch": "narayani-modular-website-v0.3",
+    "parent_commit": "8b306c27e77942d9f38adc6ad1b0d1dde2e2ac18",
+    "production_pages_url": "https://fabingurung.github.io/Project_Drawings/",
+    "production_branch": "narayani-pages-v0.2",
+    "production_policy": "v0.2 remains untouched until v0.3 receives independent verification and explicit promotion."
+  },
+  "engineering_state": {
+    "m80": "PINNED / CODAL_NOT_VERIFIED / HOLD / DEFERRED BY USER",
+    "m80_action": "Remind on project resume; do not redesign/resume unless explicitly requested."
+  },
+  "modules": [
+    {
+      "stage": "V02",
+      "slug": "v02",
+      "title": "PCC / Blinding",
+      "version": "v0.8",
+      "status": "FROZEN",
+      "tab_count": 5,
+      "href": "stages/v02/index.html"
+    },
+    {
+      "stage": "V03",
+      "slug": "v03",
+      "title": "Footing Reinforcement",
+      "version": "v0.4",
+      "status": "FROZEN",
+      "tab_count": 8,
+      "href": "stages/v03/index.html"
+    },
+    {
+      "stage": "M40",
+      "slug": "m40",
+      "title": "Footing RCC",
+      "version": "v0.3",
+      "status": "FROZEN",
+      "tab_count": 5,
+      "href": "stages/m40/index.html"
+    },
+    {
+      "stage": "M50",
+      "slug": "m50",
+      "title": "Starter / Dowel / Embedded Works",
+      "version": "v0.5",
+      "status": "FROZEN",
+      "tab_count": 5,
+      "href": "stages/m50/index.html"
+    },
+    {
+      "stage": "M60",
+      "slug": "m60",
+      "title": "Column First Lift",
+      "version": "v0.1",
+      "status": "FROZEN",
+      "tab_count": 5,
+      "href": "stages/m60/index.html"
+    },
+    {
+      "stage": "M70",
+      "slug": "m70",
+      "title": "Plinth Beam Network",
+      "version": "v0.5",
+      "status": "FROZEN",
+      "tab_count": 8,
+      "href": "stages/m70/index.html"
+    },
+    {
+      "stage": "M80",
+      "slug": "m80",
+      "title": "Underground Water Tank",
+      "version": "v0.4",
+      "status": "CODAL_NOT_VERIFIED / HOLD",
+      "tab_count": 12,
+      "href": "stages/m80/index.html"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "jp-aec://narayani/modular-stage/0.3",
+  "stage": "V02",
+  "slug": "v02",
+  "title": "PCC / Blinding",
+  "version": "v0.8",
+  "status": "FROZEN",
+  "source_artifact_name": "Narayani_V02_PCC_Blinding_Atomic_Interactive_v0.8.html",
+  "source_sha256": "d04d4253a02208e356f902bb89e1d0c69b679333506c1cff6834211414714c21",
+  "source_authority": "Governed private project storage; identifiers intentionally excluded from public payload.",
+  "tabs": [
+    "Spatial Plan",
+    "Material Selector & Sum",
+    "PCC / Material Order Builder",
+    "Detail / Section Explorer",
+    "Building Context / Elevation"
+  ],
+  "tab_count": 5,
+  "files": [
+    "index.html",
+    "stage.css",
+    "stage.js",
+    "stage-data.json",
+    "meta.json"
+  ],
+  "engineering_policy": "Preserve source engineering state; this website is a publication/view layer, not signed design authority."
+}

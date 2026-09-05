@@ -1,0 +1,27 @@
+{
+  "schema": "jp-aec://narayani/modular-stage/0.3",
+  "stage": "M60",
+  "slug": "m60",
+  "title": "Column First Lift",
+  "version": "v0.1",
+  "status": "FROZEN",
+  "source_artifact_name": "Narayani_M60_Column_FirstLift_Atomic_Interactive_v0.1.html",
+  "source_sha256": "924c378fef6c8c1d6bbde052e70ec0ad0a8c505ce97cc5c046b0608ef644d69a",
+  "source_authority": "Governed private project storage; identifiers intentionally excluded from public payload.",
+  "tabs": [
+    "1. Spatial Column Lift Plan",
+    "2. Material Selector & Sum",
+    "3. Column Lift Order Builder",
+    "4. Detail / Section Explorer",
+    "5. Building Context / Elevation"
+  ],
+  "tab_count": 5,
+  "files": [
+    "index.html",
+    "stage.css",
+    "stage.js",
+    "stage-data.json",
+    "meta.json"
+  ],
+  "engineering_policy": "Preserve source engineering state; this website is a publication/view layer, not signed design authority."
+}

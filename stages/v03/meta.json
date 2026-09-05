@@ -1,0 +1,30 @@
+{
+  "schema": "jp-aec://narayani/modular-stage/0.3",
+  "stage": "V03",
+  "slug": "v03",
+  "title": "Footing Reinforcement",
+  "version": "v0.4",
+  "status": "FROZEN",
+  "source_artifact_name": "Narayani_V03_Footing_Reinforcement_Atomic_Interactive_v0.4.html",
+  "source_sha256": "cdf873d5b827c1f04b4bc6a253f693b7c415310e64837b9608dc768bbe72b9aa",
+  "source_authority": "Governed private project storage; identifiers intentionally excluded from public payload.",
+  "tabs": [
+    "Spatial Rebar Plan",
+    "Rebar Selector & Sum",
+    "Vendor Order Builder",
+    "Detail / Section Explorer",
+    "Building Context / Elevation",
+    "Top + Bottom",
+    "Bottom only",
+    "Top only"
+  ],
+  "tab_count": 8,
+  "files": [
+    "index.html",
+    "stage.css",
+    "stage.js",
+    "stage-data.json",
+    "meta.json"
+  ],
+  "engineering_policy": "Preserve source engineering state; this website is a publication/view layer, not signed design authority."
+}
