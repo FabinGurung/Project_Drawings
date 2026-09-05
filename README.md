@@ -1,4 +1,4 @@
-# Narayani Modular Drawing Atlas v0.3 — DEVELOPMENT
+# Narayani Modular Drawing Atlas v0.3.1 — DEVELOPMENT
 
 This branch/package is the modular successor to the verified v0.2 GitHub Pages status publication.
 
@@ -16,3 +16,10 @@ Exact private source Drive IDs are retained only in the governed Drive-side INTE
 
 ## Promotion
 Do not change the GitHub Pages source from `narayani-pages-v0.2:/` until this development branch has passed remote tree/file verification, functional QA, public-safety scan, and explicit promotion authorization.
+
+## QA01 normalization
+- Module-card tab counts now mean primary viewer tabs.
+- V03 reports 5 primary viewer tabs; its 3 rebar layer controls remain sub-controls.
+- M80 source panels are grouped into 8 primary viewer tabs without changing engineering data.
+- Private governed source references are displayed as non-clickable labels rather than dead public links.
+- Production Pages remains on `narayani-pages-v0.2`; this development branch is not promoted.

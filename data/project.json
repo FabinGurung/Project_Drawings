@@ -7,12 +7,15 @@
     "location": "Pokhara, Nepal"
   },
   "website": {
-    "version": "v0.3-development",
+    "version": "v0.3.1-development",
     "branch": "narayani-modular-website-v0.3",
     "parent_commit": "8b306c27e77942d9f38adc6ad1b0d1dde2e2ac18",
     "production_pages_url": "https://fabingurung.github.io/Project_Drawings/",
     "production_branch": "narayani-pages-v0.2",
-    "production_policy": "v0.2 remains untouched until v0.3 receives independent verification and explicit promotion."
+    "production_policy": "v0.2 remains untouched until v0.3.x receives independent verification and explicit promotion.",
+    "development_parent_commit": "5b6bed4c0007c5f3c7b9cbc17723dd3147b52e2e",
+    "development_parent_tree": "fc4494d7986ab51ebea9ed0e44e540c63290b5fc",
+    "qa_state": "QA01_NORMALIZED / PAGES_NOT_PROMOTED"
   },
   "engineering_state": {
     "m80": "PINNED / CODAL_NOT_VERIFIED / HOLD / DEFERRED BY USER",
@@ -34,7 +37,7 @@
       "title": "Footing Reinforcement",
       "version": "v0.4",
       "status": "FROZEN",
-      "tab_count": 8,
+      "tab_count": 5,
       "href": "stages/v03/index.html"
     },
     {
@@ -79,7 +82,7 @@
       "title": "Underground Water Tank",
       "version": "v0.4",
       "status": "CODAL_NOT_VERIFIED / HOLD",
-      "tab_count": 12,
+      "tab_count": 8,
       "href": "stages/m80/index.html"
     }
   ]

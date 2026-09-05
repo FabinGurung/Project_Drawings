@@ -1,9 +1,10 @@
 {
-  "schema": "jp-aec://narayani/public-manifest/0.3",
-  "version": "v0.3-development",
+  "schema": "jp-aec://narayani/public-manifest/0.3.1",
+  "version": "v0.3.1-development",
   "target_branch": "narayani-modular-website-v0.3",
-  "parent_commit": "8b306c27e77942d9f38adc6ad1b0d1dde2e2ac18",
+  "development_parent_commit": "5b6bed4c0007c5f3c7b9cbc17723dd3147b52e2e",
   "production_branch_untouched": "narayani-pages-v0.2",
+  "change_set": "QA01_TAB_NORMALIZATION_PRIVATE_SOURCE_UI_ACCESSIBILITY",
   "files": [
     {
       "path": ".nojekyll",
@@ -17,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1222,
-      "sha256": "827f1015d48ee01644fb043a45000cc720d6c94c21a40d9ef8005608a1e626b2"
+      "bytes": 1681,
+      "sha256": "025703ea25f46aafc644342814e71c9ac90a14ee83569d04a69836388a7539be"
     },
     {
       "path": "assets/css/site.css",
@@ -27,13 +28,13 @@
     },
     {
       "path": "assets/css/stage-shell.css",
-      "bytes": 542,
-      "sha256": "d4b7c9cd14dd8f1506038cbf9ba7d561c4f8103b9b8e63a65b53cf6eee3f7bfa"
+      "bytes": 767,
+      "sha256": "db6cc24360754766ca28610ea0b062eaf59796d513ef87ef218f1089e2c52267"
     },
     {
       "path": "assets/js/app.js",
-      "bytes": 1362,
-      "sha256": "dd161e1da7fcede797718ead0d539cf04308888ea7cc26e7e8dbdf8a5119e598"
+      "bytes": 1608,
+      "sha256": "b7231db1ac7fbecb3981b645195d5e04be5b2006dd47c3b09ed643bb6a67d629"
     },
     {
       "path": "assets/js/stage-bootstrap.js",
@@ -42,13 +43,13 @@
     },
     {
       "path": "data/navigation.json",
-      "bytes": 1528,
-      "sha256": "c9c7295c834f3057af9251fcd22035f73a49f4c398561866f5ee1d1b1cc01149"
+      "bytes": 1527,
+      "sha256": "114ecdd0b6be4987f82fc25ce46e3722ba55a42f59868d839926166fbc35ed12"
     },
     {
       "path": "data/project.json",
-      "bytes": 2296,
-      "sha256": "d0762b32306c84d2f3471ec86b2a7a197971759d0f008d01c285bc2bb1f0468f"
+      "bytes": 2507,
+      "sha256": "33c8d58a3622e7ba12345428940977120033b0d572ab9422a58e5fddeff0635a"
     },
     {
       "path": "index.html",
@@ -57,8 +58,8 @@
     },
     {
       "path": "stages/m40/index.html",
-      "bytes": 51294,
-      "sha256": "5a6123ecc188d9afa6985b5e1d20488a5b35cec15ef69631f74e96757773dffd"
+      "bytes": 51462,
+      "sha256": "31d39973a759d00efc70f90ffcf61a5045e2364e5fc4667b5a2508553e9b5e1e"
     },
     {
       "path": "stages/m40/meta.json",
@@ -82,8 +83,8 @@
     },
     {
       "path": "stages/m50/index.html",
-      "bytes": 48300,
-      "sha256": "96d3b5548827b279cc31929aaeeade22a758619233e43bc3a5a5dc5f4e48df3f"
+      "bytes": 48468,
+      "sha256": "98e144831d405b2b00603be202fa0aac3ceeeacb1306987998606dec6b36db69"
     },
     {
       "path": "stages/m50/meta.json",
@@ -157,8 +158,8 @@
     },
     {
       "path": "stages/m80/index.html",
-      "bytes": 7532,
-      "sha256": "086769abb52715a17161c54d406170eb79ce1bd04d460f4e25ac28b9efdc4c5b"
+      "bytes": 7279,
+      "sha256": "d4747588ccae273ec9f269b92300fee86a1012a4a6dd3484ed0646cc8edde855"
     },
     {
       "path": "stages/m80/meta.json",
@@ -177,13 +178,13 @@
     },
     {
       "path": "stages/m80/stage.js",
-      "bytes": 24520,
-      "sha256": "97c642f030858923881ec32c7230c48b063548e9ea3bfafb02b16e73c7a784cb"
+      "bytes": 24614,
+      "sha256": "514e03463cfca77d4d01454d3ed0f36b38e1f015bb46cc062d3b8cbd947b0802"
     },
     {
       "path": "stages/v02/index.html",
-      "bytes": 46540,
-      "sha256": "a15f4284348547d5d9872e734969c49df9242e957f55010991724a09145d6683"
+      "bytes": 46764,
+      "sha256": "ad054a41e98e270bf7c3252a9a7e7452c35b141be1991ddc11d6483773d23249"
     },
     {
       "path": "stages/v02/meta.json",
@@ -207,8 +208,8 @@
     },
     {
       "path": "stages/v03/index.html",
-      "bytes": 247386,
-      "sha256": "51050fd45871b30344c94522e146f162f3ca32a3bfb5740e0db66e3a22a003b5"
+      "bytes": 247610,
+      "sha256": "e31b48dbddd2fd7168242f8fdd0d5b69789a1a629b713107c05e8b872d86f74d"
     },
     {
       "path": "stages/v03/meta.json",
