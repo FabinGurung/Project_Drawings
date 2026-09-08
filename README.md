@@ -23,3 +23,10 @@ Do not change the GitHub Pages source from `narayani-pages-v0.2:/` until this de
 - M80 source panels are grouped into 8 primary viewer tabs without changing engineering data.
 - Private governed source references are displayed as non-clickable labels rather than dead public links.
 - Production Pages remains on `narayani-pages-v0.2`; this development branch is not promoted.
+
+## v0.4 Vite + TypeScript migration
+Shared homepage/app shell migrated to TypeScript. Proven PCC→M80 stage viewers remain unchanged under `public/stages/` for Phase 1 compatibility.
+
+- Source parent: `4486dcfc453cb80e0bffd4836ac052bd7463d6b5`
+- Vercel build target: `dist/`
+- M80: `CODAL_NOT_VERIFIED / HOLD / DEFERRED`

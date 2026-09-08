@@ -1,0 +1,12 @@
+{
+  "schema": "jp-aec://narayani/public-manifest/0.4.0",
+  "version": "v0.4.0-vite-ts-preview",
+  "source_branch": "narayani-modular-website-v0.3",
+  "source_commit": "4486dcfc453cb80e0bffd4836ac052bd7463d6b5",
+  "target_branch": "narayani-vite-ts-vercel-v0.4",
+  "architecture": "Vite + TypeScript app shell; PCC\u2192M80 stage modules preserved as static public assets for migration phase 1",
+  "hosting_target": "Vercel",
+  "typescript_scope": "top-level app shell + typed navigation contract",
+  "legacy_stage_runtime": "stage-specific JavaScript retained unchanged in phase 1 to preserve proven viewer behavior",
+  "m80": "CODAL_NOT_VERIFIED / HOLD / DEFERRED"
+}
