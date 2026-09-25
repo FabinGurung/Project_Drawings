@@ -1,28 +1,42 @@
-# Narayani AEC Intelligence — GitHub Pages Staging v0.2
+# Project Drawings — Governed AEC Project Hub
 
-Static public-safe publication bundle for `PRJ-000007 / Narayani Parajuli Residence`.
+Shared public-safe project portal for multiple construction/AEC projects.
 
-## Purpose
+## Architecture
 
-Publish a governed audit/status interface without exposing private Drive identifiers, private source links, or internal register/checkpoint links.
+The repository now follows the same portal → subpage pattern used by the MSc Structural Engineering study system:
 
-## Lineage
+- `/index.html` — project registry / landing page
+- `/projects/narayani-parajuli/` — Narayani Parajuli Residence
+- `/projects/ramachandra-devkota/` — 14 One Storey House — Ramachandra Devkota
+- `/data/projects.json` — public-safe project registry
 
-- Parent artifact: `Narayani_GitHub_Pages_Staging_v0.1.zip`
-- Parent SHA-256: `23628f9d6c94bcafa0ea6fd8616b80d9eb5a50a5f040e7d7634a4d14d5c76a67`
-- Supersession reason: v0.1 contains private Drive URLs/IDs forbidden by the governing GitHub pre-push safety gate.
-- Created: 2026-09-03 18:27 NPT
+Future projects should be added as sibling routes under `/projects/<project-slug>/` rather than creating separate repositories/sites unless a separate authority explicitly requires it.
 
-## Publication state
+## Authority model
 
-- Repository: `FabinGurung/Project_Drawings`
-- Candidate branch: `narayani-pages-v0.2`
-- Publication folder: repository root
-- Pages URL: not configured or verified
-- Status: `PUBLIC_SAFE_STAGING_READY__REPOSITORY_EMPTY`
+Google Drive/A9 remains the engineering and project-data authority. GitHub is the public-safe view/publication layer and records website code plus publication history.
 
-The target repository is currently empty. The package must not be pushed to `main` merely to bootstrap the repository; branch initialization requires a compliant writer or an explicitly approved SOP deviation.
+The repository must not expose private Drive identifiers, private source URLs, internal checkpoint/register links, or unapproved client/contact information. Approved Docs/Sheets may be linked later only after their access/publication classification explicitly permits publication.
 
-## Engineering status
+## GitHub publication ledger
 
-M80 v0.4 remains `CODAL_NOT_VERIFIED / HOLD`, not construction-approved. Live governed Google Drive remains the engineering authority. GitHub Pages is a public view layer only.
+Each governed publication should record at minimum:
+
+- source A9 project/event or release identifier
+- candidate branch
+- commit SHA and tree SHA
+- tag
+- GitHub Release
+- deployment/Pages state
+- public-safe manifest
+- rollback target
+
+A9 Local/Main libraries should preserve typed lineage between the project artifact and the GitHub publication event. GitHub is evidence of publication, not a replacement for the engineering authority.
+
+## Current candidate
+
+- Candidate branch: `project-hub-v0.1`
+- Parent branch/commit: `narayani-pages-v0.2` / `8b306c27e77942d9f38adc6ad1b0d1dde2e2ac18`
+- Purpose: convert the single-project Narayani staging bundle into a multi-project hub while preserving Narayani as a subpage and adding Ramachandra Devkota as the second project route.
+- Publication state: candidate only until provider readback, A9 registration, tag/release, and deployment verification are complete.

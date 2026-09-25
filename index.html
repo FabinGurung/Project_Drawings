@@ -1,44 +1,22 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Governed structural work-package status and audit portal for Narayani Parajuli Residence.">
-<title>Narayani AEC Intelligence · Governed Project Atlas</title><link rel="stylesheet" href="assets/styles.css"></head>
-<body><div class="wrap">
-<section class="hero"><div class="eyebrow">Fishtail Builders · PRJ-000007 · Governed AEC Atlas</div>
-<h1>Narayani AEC Intelligence</h1>
-<p>A publication view of the structural work completed so far. Every package keeps its actual engineering state—frozen rollback, review, hold, or codal-not-verified—rather than flattening the project into a false “all approved” status.</p>
-<div class="alert ok"><b>E2K audit decision:</b> the obtained ULS/SLS ETABS models do <b>not</b> justify rebuilding PCC through M80 wholesale. They become analysis authorities for targeted revalidation and future branches.</div>
-<div class="small">Detailed source records, checkpoints and registers remain in governed private project storage and are intentionally not linked from this public site.</div>
-</section>
-
-<h2 class="section-title">Work-package atlas</h2>
-<div class="toolbar">
-<button class="filter active" data-filter="ALL">All</button><button class="filter" data-filter="FROZEN">Frozen</button>
-<button class="filter" data-filter="HOLD">Hold</button><button class="filter" data-filter="CODAL_NOT_VERIFIED">Codal not verified</button>
-</div>
-<section id="stageCards" class="grid"></section>
-
-<h2 class="section-title">ETABS ULS/SLS source audit</h2>
-<section class="grid">
-<article class="card"><div class="stage">MACHINE-READABLE SOURCE</div><h3>ULS model</h3><p class="note">ETABS source preserved in the governed private project record.</p></article>
-<article class="card"><div class="stage">MACHINE-READABLE SOURCE</div><h3>SLS model</h3><p class="note">Geometry and section-assignment family align with ULS; load-pattern and stiffness differences are preserved for audit.</p></article>
-<article class="card wide"><h3>Reconciliation focus</h3><ul><li>Report/model software-version provenance requires clarification.</li><li>ULS and SLS stiffness modifiers differ.</li><li>Circular-column material-grade provenance requires clarification.</li><li>Response-spectrum claims require reconciliation with the available exports.</li><li>Slab-cover design preferences require reconciliation with the report narrative.</li></ul></article>
-</section>
-
-<h2 class="section-title">M80 codal hold</h2>
-<section class="grid"><article class="card wide">
-<div class="meta"><span class="badge b-CODAL_NOT_VERIFIED">CODAL_NOT_VERIFIED</span><span class="badge b-HOLD">HOLD</span></div>
-<h3>Water tank v0.4 is preserved, not erased</h3><p class="note">The viewer and source-backed calculations remain valuable historical/audit artifacts. They are deliberately not labelled construction-approved until the open liquid-retaining design checks are resolved.</p>
-<div class="alert"><ul><li>Minimum concrete-grade basis for liquid-retaining RC remains unresolved.</li><li>Severe-exposure cover basis remains unresolved.</li><li>SLS crack-width and liquid-tightness verification is not established.</li><li>Complete liquid, earth-pressure, earthquake and groundwater/uplift load-state verification is not established.</li></ul></div>
-</article></section>
-
-<h2 class="section-title">Roadmap / backlog</h2>
-<section class="timeline">
-<div class="road"><div class="ord">1</div><div><b>Publish governed status/audit website</b><div class="small">Public-safe staging is ready; repository branch bootstrap is pending.</div></div><span class="badge">STAGING_READY</span></div>
-<div class="road"><div class="ord">2</div><div><b>Resolve M80 code audit</b><div class="small">Concrete grade, cover, serviceability and load-state verification.</div></div><span class="badge">DEFERRED_HOLD</span></div>
-<div class="road"><div class="ord">3</div><div><b>Complete M70 global lap-location optimality proof</b><div class="small">Selected-schedule optimum is preserved; global proof remains open.</div></div><span class="badge">OPEN_BACKLOG</span></div>
-<div class="road"><div class="ord">4</div><div><b>Advance to M90 / next superstructure interface</b></div><span class="badge">BLOCKED_BY_PREVIOUS_GATES</span></div>
-</section>
-
-<div class="footer">Generated from governed project state · 2026-09-03 18:27 NPT · Website is an audit/status interface, not a replacement for signed structural design documents.</div>
-</div>
-<script src="assets/app.js"></script></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Public-safe project portal for governed AEC project pages.">
+<title>Project Drawings · Governed AEC Project Hub</title>
+<style>
+:root{--bg:#07111c;--surface:#0e1c2b;--surface2:#132437;--line:#263b51;--text:#eef7ff;--muted:#9fb1c5;--accent:#6bd4ff;--green:#70e1ad;--yellow:#ffd36f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,rgba(72,118,172,.22),transparent 30%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}.shell{max-width:1240px;margin:auto;padding:24px 24px 70px}header{display:flex;align-items:center;gap:14px;padding:10px 0 38px}.mark{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),#8ca7ff);color:#06111d;font-weight:950}header small{display:block;color:var(--muted);margin-top:3px}.hero{padding:34px 0 30px;display:grid;grid-template-columns:1.35fr .65fr;gap:28px;align-items:end}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#9cdeff;font-weight:900}h1{font-size:clamp(46px,7vw,84px);line-height:.96;letter-spacing:-.055em;margin:16px 0}.lede{font-size:18px;line-height:1.65;color:var(--muted);max-width:820px}.hero-panel{border:1px solid var(--line);background:linear-gradient(180deg,var(--surface),#0b1724);border-radius:18px;padding:22px}.hero-panel strong{display:block;font-size:30px}.hero-panel p{color:var(--muted);line-height:1.55}.search{margin:24px 0 38px}.search input{width:100%;background:#091725;color:var(--text);border:1px solid var(--line);border-radius:13px;padding:15px 16px;font-size:16px;outline:none}.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(107,212,255,.09)}.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:15px}h2{font-size:32px;letter-spacing:-.04em;margin:4px 0}.count{color:var(--muted);font-size:12px}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.project-card{border:1px solid var(--line);background:linear-gradient(180deg,var(--surface),#0b1826);border-radius:18px;padding:22px;min-height:250px;display:flex;flex-direction:column}.project-card.live{border-color:#346b67}.project-card.building{border-color:#365878}.top{display:flex;gap:8px;justify-content:space-between;align-items:center}.code{font-weight:900;color:#a9e5ff}.status{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);text-align:right}.live .status{color:var(--green)}.building .status{color:var(--yellow)}h3{font-size:24px;line-height:1.2;margin:22px 0 8px}.meta{color:var(--muted);font-size:13px;line-height:1.55;margin-bottom:18px}.modules{display:flex;flex-wrap:wrap;gap:7px;margin:4px 0 18px}.pill{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:5px 8px;color:#bcd0e4;background:#0a1826}.open{margin-top:auto;color:#9edfff;font-size:14px;font-weight:850;text-decoration:none}.callout{margin-top:42px;border:1px solid var(--line);border-radius:18px;padding:24px;background:rgba(255,255,255,.025);display:grid;grid-template-columns:1fr 1fr;gap:24px}.callout p{color:var(--muted);line-height:1.6}footer{margin-top:46px;color:#73879b;font-size:11px}.hidden{display:none!important}@media(max-width:820px){.hero{grid-template-columns:1fr}.project-grid,.callout{grid-template-columns:1fr}}@media(max-width:590px){.shell{padding:18px 15px 50px}h1{font-size:48px}}
+</style>
+</head>
+<body><div class="shell">
+<header><div class="mark">AEC</div><div><b>Project Drawings</b><small>Governed project portal · public-safe view layer</small></div></header>
+<section class="hero"><div><span class="eyebrow">One portal · many projects</span><h1>Find the project.<br>Then find the work.</h1><p class="lede">A single browseable front door for project drawings, visualizations, estimates, schedules, reports and future site records. Each project keeps its own governed subpage while the live engineering authority remains in A9-controlled storage.</p></div><div class="hero-panel"><span class="eyebrow">Portal model</span><strong>2 project pages</strong><p>Narayani becomes the first sub-project. Ramachandra Devkota becomes the second. Future projects reuse the same route-and-module pattern instead of creating isolated websites.</p></div></section>
+<div class="search"><input id="q" placeholder="Search project, client, company or project ID…" autocomplete="off"></div>
+<section><div class="section-head"><div><span class="eyebrow">Project registry</span><h2>Projects</h2></div><span class="count">2 registered portal routes</span></div><div class="project-grid">
+<article class="project-card live" data-search="narayani parajuli prj-000007 fishtail builders structural audit residence"><div class="top"><span class="code">PRJ-000007</span><span class="status">Governed status portal</span></div><h3>Narayani Parajuli Residence</h3><div class="meta">Fishtail Builders · Pokhara · existing governed structural/audit publication preserved as a project subpage.</div><div class="modules"><span class="pill">Structural stages</span><span class="pill">ETABS audit</span><span class="pill">M80 hold</span><span class="pill">Roadmap</span></div><a class="open" href="projects/narayani-parajuli/">Open project →</a></article>
+<article class="project-card building" data-search="ramachandra devkota ramchandra prj-000029 reb-002 rohini ward 14 pokhara one storey house"><div class="top"><span class="code">PRJ-000029 · REB-002</span><span class="status">Planned · portal bootstrap</span></div><h3>14 One Storey House — Ramachandra Devkota</h3><div class="meta">Rohini Engineering and Builders · Ward 14, Pokhara · current governed material includes active CAD revisions, a derived architectural visualization and a native preliminary estimate workbook.</div><div class="modules"><span class="pill">Drawings</span><span class="pill">Visualization</span><span class="pill">Estimate / BOQ</span><span class="pill">Future WBS / Gantt</span><span class="pill">Reports</span></div><a class="open" href="projects/ramachandra-devkota/">Open project →</a></article>
+</div></section>
+<section class="callout"><div><span class="eyebrow">Authority rule</span><h2>Website is the front door, not the source of truth</h2><p>Google Drive/A9 remains the governed engineering and project-data authority. GitHub records public-safe website code, project routes, commit history, tags and releases.</p></div><div><span class="eyebrow">Access rule</span><h2>Link once, reuse everywhere</h2><p>Approved live Docs/Sheets can later appear as stable buttons inside each project page. Private Drive identifiers are not published until their access classification explicitly permits it.</p></div></section>
+<footer>PROJECT-DRAWINGS-HUB · candidate v0.1 · 2026-09-26 NPT · Public-safe project index; no private Drive IDs embedded.</footer>
+</div><script>const q=document.getElementById('q');q.addEventListener('input',()=>{const s=q.value.trim().toLowerCase();document.querySelectorAll('.project-card').forEach(c=>c.classList.toggle('hidden',!!s&&!c.dataset.search.includes(s)))})</script></body></html>

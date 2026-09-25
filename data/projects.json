@@ -1,0 +1,30 @@
+{
+  "schema": "a9-project-drawings://public-project-registry/0.1",
+  "generated_at_npt": "2026-09-26",
+  "repository": "FabinGurung/Project_Drawings",
+  "policy": "Public-safe metadata only. Google Drive remains engineering/project authority. Private Drive IDs and URLs are excluded unless separately classified for publication.",
+  "projects": [
+    {
+      "project_id": "PRJ-000007",
+      "slug": "narayani-parajuli",
+      "name": "Narayani Parajuli Residence",
+      "organization": "Fishtail Builders",
+      "location": "Pokhara, Nepal",
+      "portal_status": "GOVERNED_STATUS_SUBPAGE",
+      "route": "projects/narayani-parajuli/",
+      "modules": ["structural stages","ETABS audit","M80 hold","roadmap"]
+    },
+    {
+      "project_id": "PRJ-000029",
+      "project_code": "REB-002",
+      "slug": "ramachandra-devkota",
+      "name": "14 One Storey House — Ramachandra Devkota",
+      "organization": "Rohini Engineering and Builders",
+      "location": "Ward 14, Pokhara",
+      "project_status": "PLANNED",
+      "portal_status": "PORTAL_BOOTSTRAP",
+      "route": "projects/ramachandra-devkota/",
+      "modules": ["drawings and models","visualization","estimate and BOQ","project state","schedule and WBS","reports and documents","site and media","release history"]
+    }
+  ]
+}
